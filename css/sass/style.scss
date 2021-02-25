@@ -1,0 +1,230 @@
+$fs:13px;
+$fc:#3c3c3c;
+$coul_menu:#31353d;
+$coul_menu_active : #20A9B4;
+$serrafontfamily: 'Montserrat', sans-serif;
+$poppins:'Poppins', sans-serif;
+$black:#202020;
+
+// @mixin bouton{
+// 	color:white;
+// 	background-color: $coul_menu_active;
+// 	display:inline-block;
+// 	min-width: 200px;
+// 	padding-top: 15px;
+// 	padding-bottom: 15px;
+// 	font-size:1.2em; 
+// 	text-align: center;
+// 	margin:0;
+// 	text-decoration: none;
+// 	margin-right: 0px !important;
+// 	transition:all ease-in-out 0.5s;
+// 	border-radius:100px;
+// 	&:hover{
+// 		background-color: white;
+// 		color:$coul_iconor;
+// 	}
+// }
+
+
+@import 'menu';
+@import 'jfv';
+@import 'interventions';
+@import 'actualites';
+
+html,body{
+	font-size:$fs;
+	color:$fc;
+	overflow-x:hidden;
+}
+
+#index-section1{
+		#liste-menu{
+			background-color:#212121;
+			list-style:none;
+			height:140px;
+			margin-bottom:0px;
+			#logo{
+				width:270px;
+				height:auto;
+				margin-left:10px;
+				margin-top:30px;
+			}
+
+			li{
+				display:inline-block;
+				margin-top:100px;
+				i{
+					color:white;
+					font-size:2em;
+					margin-top:-30px;
+				}
+
+			 a{
+				color:#BCBCBC;
+				text-decoration:none;
+				font-family:$poppins;
+				font-size:1.3em;
+				padding-left: 50px;
+				padding-right: 50px;
+				font-weight: light;
+				transition:0.3s;
+				// &:hover{
+				// 	color:white;
+				// 	transition:0.3s;
+				// 	padding:10px;
+				// 	padding-right:50px;
+				// 	padding-left:50px;
+				// 	background-color:$th2color;
+				// 	border-radius:100px;
+				// }
+			}
+			 // .active{
+				// 	color:white;
+				// 	padding:10px;
+				// 	padding-right:40px;
+				// 	padding-left:40px;
+				// 	background-color:$th2color;
+				// 	border-radius:100px;
+			 // }			
+		}
+
+	}	
+}
+
+#index-section2{
+	background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../img/background.jpg");
+	background-size: cover;
+	min-height:900px;
+	background-position:center;
+	text-align:center;
+		img{
+			margin-top:250px;
+			width:100px;
+		}
+		h1{
+			font-size:3.5em;
+			color:white;
+			margin-top:40px;
+			font-weight:600;
+			text-align:center;
+			font-family:$poppins;
+		}
+		h2{
+			color:#212121;
+			font-family:$poppins;
+			font-size:2.2em;
+			margin-top:30px;
+			font-weight:600;
+		}
+		h3{
+			font-family: $poppins;
+			color:white;
+			margin-top:80px;
+			margin-bottom:50px;
+		}
+		.bouton{
+			padding-top:8px;
+			padding-bottom:8px;
+			padding-left:5px;
+			padding-right:5px;
+			background-color:#212121;
+			color:#BCBCBC;
+			text-decoration:none;
+			font-size:1.4em;
+			font-family: $poppins;			
+		}	
+}
+
+
+#index-section2{
+
+}
+
+#index-section3{
+	
+}
+
+
+
+#index-section4{
+
+}
+
+
+
+
+footer{
+	background-color:$coul_menu;
+	height:auto;
+	img{
+		width:40px;
+		height:auto;
+		margin-top:10px;
+		margin-bottom:-30px;
+		text-align:center;
+		margin-top:10px;
+		margin-left:30px;
+	}
+	.ftaw{
+		font-size:30px;
+		color:white;
+		position:absolute;
+		margin-top:-20px;
+		text-align:center;
+		.fa{
+			cursor:pointer;
+			margin-left:5px;
+			&:hover{
+				color:$coul_menu_active;
+			}
+		}
+	}
+
+	.footdown{
+		color:white;
+		margin-top: 10px;
+		a{
+			color:#839999;
+		}
+	}
+	.footdownVL{
+		color:#839999;
+		margin-top: -25px;
+		margin-bottom:10px;
+		a{
+			text-decoration:none;
+			color: #839999;
+			&:hover{
+				color: grey;
+			}
+		}		
+	}
+}
+
+
+// <- -MEDIA QUERIES - ->
+
+
+@media screen and (max-width: 769px) {
+
+#index-section1{
+
+  }
+
+  #index-section4{
+
+  }
+}
+
+@media screen and (max-width: 468px) {
+#index-section1{
+
+  }
+}
+
+	@media screen and (max-width: 321px) {
+#index-section1{
+
+  }
+}

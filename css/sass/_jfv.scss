@@ -1,0 +1,76 @@
+#jfv-section2{
+	min-height:500px;
+	#logo{
+		width:60px;
+		// margin-left:70px;
+		margin-top:-50px;
+	}
+	h1{
+		display:inline-block;
+		margin-top:100px;
+		font-family: $poppins;
+		font-weight:600;
+		font-size:2.3em;
+		margin-bottom:70px;
+	}
+	h2{
+		font-family: $poppins;
+		font-size:2em;
+
+	}
+	p{
+		font-family: $poppins;
+		margin-top:15px;
+		margin-bottom:15px;
+		font-weight: 600;
+		font-size:1.1em;
+		color:#808080;
+		
+	}
+	img{
+		margin-top:-600px;
+	}	
+
+}
+
+
+
+
+
+
+
+// <- -MEDIA QUERIES - ->
+
+
+@media screen and (max-width: 1415px) {
+
+#jfv-section2{
+	h1{
+
+		font-size:1.8em;
+	}
+  }
+
+}
+
+@media screen and (max-width: 1181px) {
+
+#jfv-section2{
+	h1{
+
+		font-size:1.6em;
+	}
+  }
+
+}
+
+@media screen and (max-width: 1087px) {
+
+#jfv-section2{
+	h1{
+
+		font-size:1.4em;
+	}
+  }
+
+}
